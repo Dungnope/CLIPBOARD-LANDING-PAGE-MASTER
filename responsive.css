@@ -1,4 +1,4 @@
-@media (max-width: 970px) {
+@media (max-width: 800px) {
     .Landing__page {
         background-image: url(./images/bg-header-mobile.png);
         padding: 0 22px;
@@ -125,4 +125,14 @@
         margin: 0 40px;
     }
 
+    .Landing__page--IOS {
+        padding: 0;
+    }
+
+}
+
+@media (min-width: 801px) {
+    .Landing__page--IOS {
+        padding: 0 20px;
+    }
 }
