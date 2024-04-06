@@ -1,0 +1,128 @@
+@media (max-width: 865px) {
+    .Landing__page {
+        background-image: url(./images/bg-header-mobile.png);
+        padding: 0 22px;
+        background-size: contain;
+    }
+
+    .Landing__page--open {
+        text-align: center;
+        padding: 0;
+    }
+
+    .landing__page--functions {
+        padding: 0 25px;
+    }
+
+    .Landing__page--button {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 24px;
+        justify-content: center;
+    }
+
+    .Landing__page--button button:first-child {
+        margin: 0;
+    }
+
+    .Landing__page--button button {
+        min-width: 100%;
+    }
+
+    .Landing__page--MAC p {
+        padding: 0;
+    }
+
+    .Landing__page--devices {
+        grid-template-columns: 1fr;
+    }
+
+    .Landing__page--image {
+        max-width: 100%;
+        margin-bottom: 62px;
+    }
+
+    .Landing__page--abilities {
+        grid-column: 1;
+        padding: 0;
+        row-gap: 64px;
+    }
+
+    .Landing__page--abilities section {
+        text-align: center;
+    }
+
+    .Landing__page--portabledevices p {
+        padding: 0;
+    }
+
+    .Landing__page--portable {
+        max-width: 100%;
+        margin-bottom: 96px;
+    }
+
+    .Landing__page--informations {
+        padding: 0;
+        grid-template-columns: 1fr;
+        row-gap: 60px;
+    }
+
+    .Landing__page--section:first-child,
+    .Landing__page--section:nth-child(2),
+    .Landing__page--section:last-child {
+        grid-column: 1 / span 2;
+    }
+
+    .Landing__page--sponsors {
+        grid-template-columns: 1fr;
+        padding: 0;
+        row-gap: 66px;
+    }
+
+    .Landing__page--sponsors img:first-child,
+    .Landing__page--sponsors img:last-child {
+        justify-self: center;
+    }
+
+    .Landing__page--IOS {
+        padding: 0;
+    }
+
+    footer,
+    .Landing__page--supports {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        row-gap: 50px;
+    }
+
+    .Landing__page--supports {
+        justify-self: center;
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1 fr);
+    }
+
+    .Landing__page--supports section:nth-child(2),
+    .Landing__page--supports section:nth-child(5) {
+        grid-column: 1;
+    }
+
+    .Landing__page--supports section:nth-child(5) {
+        grid-row: 5;
+    }
+
+    .Landing__page--socials {
+        justify-self: center;
+    }
+
+    .Landing__page--socialmedia {
+        margin: 0;
+    }
+
+    .Landing__page--socialmedia:nth-child(2) {
+        margin: 0 40px;
+    }
+
+}

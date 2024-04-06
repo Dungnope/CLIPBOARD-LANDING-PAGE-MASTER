@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+:root {
+    --Strong__Cyan: hsl(171, 66%, 44%);
+    --Light__Blue: hsl(233, 100%, 69%);
+    --Dark__Grayish__Blue: hsl(210, 10%, 33%);
+    --Grayish__Blue: hsl(201, 11%, 66%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', 'sans-serif';
+}
+
+.Landing__page {
+    background-repeat: no-repeat;
+    background-image: url(./images/bg-header-desktop.png);
+}
+
+.Landing__page--open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 22%;
+    margin-bottom: 156px;
+}
+
+.Landing__page--open h1 {
+    margin-bottom: 16px;
+    color: #4f585f;
+
+}
+
+.Landing__page--logo {
+    margin: 128px 0 66px;
+}
+
+.landing__page--functions {
+    text-align: center;
+    margin-bottom: 36px;
+    color: var(--Grayish__Blue);
+}
+
+.Landing__page--button button {
+    height: 53px;
+    width: 227px;
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+
+.Landing__page--button button:first-child {
+    margin-right: 16px;
+    background-color: #26bba5;
+    box-shadow: 0px 2px 0px 0.5px #219d85, -4px 14px 16px 0px #d9f7ed;
+}
+
+.Landing__page--button button:last-child {
+    background-color: #6174ff;
+    box-shadow: 0px 2px 0px 0.5px #5261d8, -4px 14px 16px 0px #e8e9eb;
+}
+
+.Landing__page--MAC {
+    text-align: center;
+    color: #4f585f;
+}
+
+.Landing__page--MAC p {
+    padding: 0 132px;
+    color: var(--Grayish__Blue);
+    margin: 30px 0 80px;
+}
+
+.Landing__page--devices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 112px;
+}
+
+
+.Landing__page--image {}
+
+.Landing__page--abilities {
+    display: flex;
+    flex-direction: column;
+    row-gap: 68px;
+    padding-right: 140px;
+    grid-column: 2 / 2;
+    justify-content: center;
+}
+
+.Landing__page--abilities section h3 {
+    color: #4f585f;
+    margin-bottom: 6px;
+}
+
+.Landing__page--abilities section p {
+    color: var(--Grayish__Blue);
+}
+
+.Landing__page--portabledevices {
+    margin: 120px 0 0;
+    text-align: center;
+
+}
+
+.Landing__page--portabledevices h2 {
+    margin-bottom: 30px;
+    color: #4f585f;
+}
+
+.Landing__page--portabledevices p {
+    color: var(--Grayish__Blue);
+    padding: 0 360px;
+    margin-bottom: 94px;
+}
+
+.Landing__page--portable {}
+
+.Landing__page--superior {
+    text-align: center;
+}
+
+.Landing__page--superior h2 {
+    color: #4f585f;
+}
+
+.Landing__page--superior p {
+    color: var(--Grayish__Blue);
+    margin: 4px 0 75px;
+}
+
+.Landing__page--informations {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 40px;
+    padding: 0 120px;
+    align-items: center;
+}
+
+.Landing__page--informations h3 {
+    color: #4f585f;
+    margin: 44px 0 30px;
+}
+
+
+
+.Landing__page--informations p {
+    color: var(--Grayish__Blue);
+    line-height: 1.2rem;
+}
+
+.Landing__page--section {
+    text-align: center;
+}
+
+.Landing__page--section:first-child {
+    grid-column: 2 / 5;
+}
+
+.Landing__page--section:first-child p {
+    margin-top: 20px;
+}
+
+.Landing__page--section:first-child h3 {
+    margin-top: 36px;
+}
+
+.Landing__page--exception {}
+
+.Landing__page--section:nth-child(2) {
+    grid-column: 5 / span 4;
+}
+
+.Landing__page--section:last-child {
+    grid-column: 9 / span 3;
+}
+
+
+.Landing__page--sponsors {
+    padding: 0 120px;
+    margin: 170px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 94px;
+}
+
+.Landing__page--sponsors img {
+    align-self: center;
+    justify-self: center;
+}
+
+.Landing__page--sponsors img:first-child {
+    justify-self: flex-start;
+}
+
+.Landing__page--sponsors img:last-child {
+    justify-self: flex-end;
+}
+
+.Landing__page--IOS {
+    text-align: center;
+    padding: 0 302px;
+    margin-bottom: 150px;
+}
+
+.Landing__page--IOS h2 {
+    color: #4f585f;
+}
+
+.Landing__page--IOS p {
+    color: var(--Grayish__Blue);
+    margin: 28px 0 46px;
+    line-height: 1.6rem;
+
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f5f6f8;
+    display: grid;
+    grid-template-columns: 1.6fr 2.9fr 2fr;
+    justify-content: center;
+}
+
+.Landing__page--logo-footer {
+    width: 55px;
+    height: 55px;
+    align-self: center;
+    justify-self: center;
+
+}
+
+.Landing__page--socials {
+    align-self: center;
+    justify-self: center;
+
+}
+
+.Landing__page--supports {
+    align-self: center;
+    justify-self: flex-start;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 26px 76px;
+}
+
+
+.Landing__page--supports section:nth-child(2) {
+    grid-column: 2 / span 1;
+    grid-row: 1;
+}
+
+.Landing__page--supports section:nth-child(5) {
+    grid-column: 3 / span 1;
+    grid-row: 1;
+}
+
+.Landing__page--socialmedia {
+    margin-right: 25px;
+}
